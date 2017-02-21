@@ -1,4 +1,4 @@
-package com.chaokunyang.dubbo.demo;
+package demo.provider;
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 

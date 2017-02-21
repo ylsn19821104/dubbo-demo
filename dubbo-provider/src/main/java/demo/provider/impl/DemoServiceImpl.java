@@ -1,7 +1,7 @@
-package com.chaokunyang.dubbo.demo.provider;
+package demo.provider.impl;
 
 
-import com.chaokunyang.dubbo.demo.DemoService;
+import demo.DemoService;
 
 /**
  * @author yangck

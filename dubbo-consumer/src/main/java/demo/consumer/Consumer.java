@@ -1,5 +1,6 @@
-package com.chaokunyang.dubbo.demo.consumer;
+package demo.consumer;
 
+import demo.DemoService;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

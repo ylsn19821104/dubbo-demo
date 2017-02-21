@@ -93,5 +93,11 @@
             <artifactId>spring-jms</artifactId>
             <version>${spring.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>com.chaokunyang</groupId>
+            <artifactId>dubbo-interface</artifactId>
+            <version>1.0.0</version>
+        </dependency>
     </dependencies>
 </project>
