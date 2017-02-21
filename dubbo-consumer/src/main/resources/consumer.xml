@@ -8,6 +8,7 @@
     <dubbo:application name="consumer-of-helloworld-app"  />
 
     <!-- 使用multicast广播注册中心暴露发现服务地址 -->
+    <!-- 如果在同一机器上，需设置unicast=false：即：multicast://224.5.6.7:1234?unicast=false，否则发给消费者的单播消息可能被提供者抢占，两个消费者在同一台机器也一样，只有multicast注册中心有此问题。 -->
     <dubbo:registry address="multicast://224.5.6.7:1234?unicast=false"/>
 
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
